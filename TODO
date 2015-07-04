@@ -12,3 +12,5 @@ supported attack types:
 5- network scanning.
 6- arpspoofing, DHCP deprivation, layer-2 attacks.
 7- application exploits.
+
+advanced attacks require scapy 
