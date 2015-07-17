@@ -5,8 +5,8 @@ software will have the following components:
 3- signature database for different kinds of attacks.
 
 supported attack types:
-1- bruteforce for FTP and SSH.
-2- IP reputation for known notnet Command and control sites.
+1- bruteforce for FTP and SSH HTTP.
+2- IP reputation for known botnet Command and control sites.
 3- bad traffic non RFC compliance.
 4- malicious payloads
 5- network scanning.
@@ -14,3 +14,32 @@ supported attack types:
 7- application exploits.
 
 advanced attacks require scapy 
+
+!!!!!!!!!!!attack scenarios!!!!!!!!!!!!!
+
+1- IP REPUTATION:
+[no need for a server]
+	open sockets to list of mal-known IP addresses stored in the database.
+	
+2- Bruteforce:
+[requires a server]
+	FTP: 
+	SSH:
+	
+3- Layer 2 attacks:
+	ARP spoofing: scapy
+	DHCP deprivation: scapy
+	
+4- bad traffic
+	XMAS attack
+	PING non RFC
+
+5- Network Scanning:
+	ping sweep
+	tcp scanning
+	OS fingerprinting
+
+6- Malware simulation
+	backdoor simulation
+	worm Simulation
+	
