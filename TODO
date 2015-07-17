@@ -4,14 +4,7 @@ software will have the following components:
 2- server will work as a connection initiation and termination point for the client depending on attack type
 3- signature database for different kinds of attacks.
 
-supported attack types:
-1- bruteforce for FTP and SSH HTTP.
-2- IP reputation for known botnet Command and control sites.
-3- bad traffic non RFC compliance.
-4- malicious payloads
-5- network scanning.
-6- arpspoofing, DHCP deprivation, layer-2 attacks.
-7- application exploits.
+
 
 advanced attacks require scapy 
 
@@ -42,4 +35,8 @@ advanced attacks require scapy
 6- Malware simulation
 	backdoor simulation
 	worm Simulation
+	
+7- exploit simulation
+	
+8- denial of service
 	
