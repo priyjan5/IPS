@@ -1,5 +1,5 @@
 
-class BadIPAttack():
+class NameAttack():
 	def __init__(self , conf):
 		self.conf = conf
 		print "created!"

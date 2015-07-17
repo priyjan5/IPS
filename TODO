@@ -4,6 +4,7 @@ software will have the following components:
 2- server will work as a connection initiation and termination point for the client depending on attack type
 3- signature database for different kinds of attacks.
 
+Note: possibility of using Threads
 
 
 advanced attacks require scapy 
