@@ -4,7 +4,7 @@ class BadIPAttack():
 		self.conf = conf
 		print "created!"
 		
-	def use(self):
+	def launch(self):
 		print "using!"
 		
 		
