@@ -3,6 +3,6 @@ import ConfigParser
 parser = ConfigParser.ConfigParser()
 parser.read('sample.conf')
 
-attacks = parser.get('Attacks' , 'denialofservice').replace(" " , "").split(",")
+attacks = parser.get('Attacks' , 'ipreputation').replace(" " , "").split(",")
 
-print attacks
+print int(attacks[0])
