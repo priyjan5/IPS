@@ -40,4 +40,8 @@ advanced attacks require scapy
 7- exploit simulation
 	
 8- denial of service
-	
+
+Features/Components to add:
+1- Add a setup script
+2- Add logging
+3- [NICE TO HAVE] A tool for creating conf files based on users options
